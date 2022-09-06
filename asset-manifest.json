@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor-Easybank/static/css/main.06aa3363.css",
+    "main.js": "/frontend-mentor-Easybank/static/js/main.e4c36175.js",
+    "static/js/787.58513d3a.chunk.js": "/frontend-mentor-Easybank/static/js/787.58513d3a.chunk.js",
+    "static/media/image-mockups.png": "/frontend-mentor-Easybank/static/media/image-mockups.48d35b175fe3d36de4ee.png",
+    "static/media/bg-intro-desktop.svg": "/frontend-mentor-Easybank/static/media/bg-intro-desktop.8be308fd4ce79bd32a09.svg",
+    "static/media/bg-intro-mobile.svg": "/frontend-mentor-Easybank/static/media/bg-intro-mobile.c2ed38d05001e62c1c09.svg",
+    "index.html": "/frontend-mentor-Easybank/index.html",
+    "static/media/icon-close.svg": "/frontend-mentor-Easybank/static/media/icon-close.c2e36e0469b3b1e6c273.svg",
+    "static/media/icon-hamburger.svg": "/frontend-mentor-Easybank/static/media/icon-hamburger.b0d311feac968ee5feab.svg",
+    "main.06aa3363.css.map": "/frontend-mentor-Easybank/static/css/main.06aa3363.css.map",
+    "main.e4c36175.js.map": "/frontend-mentor-Easybank/static/js/main.e4c36175.js.map",
+    "787.58513d3a.chunk.js.map": "/frontend-mentor-Easybank/static/js/787.58513d3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06aa3363.css",
+    "static/js/main.e4c36175.js"
+  ]
+}
