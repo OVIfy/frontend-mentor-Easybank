@@ -92,7 +92,7 @@ function App(props) {
            p2={ isMobile? 'py30 fb1 fc sb tc' : 'py50 fb1 fr sb'}
            color="lightgray">
         <TextBox 
-                   url="images/icon-online.svg"
+                   url={`${process.env.PUBLIC_URL}/images/icon-online.svg`}
                    titleText="Online Banking" 
                     contentText="Our modern web and mobile applications allow you to keep track of your finances 
                     wherever you are in the world."
@@ -102,7 +102,7 @@ function App(props) {
                     classes="my10 mx10">
                     
           </TextBox>
-          <TextBox  url="/images/icon-budgeting.svg"
+          <TextBox  url={`${process.env.PUBLIC_URL}/images/icon-budgeting.svg`}
                     titleText="Simple Budgeting" 
                     contentText="See exactly where your money goes each month. Receive notifications when you’re 
                     close to hitting your limits."
@@ -112,7 +112,7 @@ function App(props) {
                     classes="my6 mx4">
                     
           </TextBox>
-          <TextBox  url="/images/icon-online.svg"
+          <TextBox  url={`${process.env.PUBLIC_URL}/images/icon-online.svg`}
                     titleText="Fast Onboarding" 
                     contentText="We don’t do branches. Open your account in minutes online and start taking control 
                     of your finances right away."
@@ -122,7 +122,7 @@ function App(props) {
                     classes="my6 mx4">
                     
           </TextBox>
-          <TextBox  url="/images/icon-api.svg"
+          <TextBox  url={`${process.env.PUBLIC_URL}/images/icon-api.svg`}
                     titleText="Open API" 
                     contentText="Manage your savings, investments, pension, and much more from one account. Tracking 
                     your money has never been easier."
