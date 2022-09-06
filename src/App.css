@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+
+.heroImg{
+  background: no-repeat top -100px right/70%  url('../public/images/image-mockups.png');
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  right: 0px;
+  top:0px;
+  z-index: 2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heroBack{
+  background:  no-repeat right -200px center/800px  url('../public/images/bg-intro-desktop.svg');
+  width: 100%;
+  height: 50%;
+  position: relative;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.attri-cont{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: hsl(233, 26%, 24%);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.attribution{
+  background-color: hsl(233, 26%, 24%);
+  border: 1px solid white;
+  text-align: center;
+  flex-basis: 90%;
+}
+
+.attribution a{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.attribution:hover{
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+@media (max-width:1000px){
+  .heroImg{
+    background: no-repeat top  right/50%  url('../public/images/image-mockups.png');
   }
-  to {
-    transform: rotate(360deg);
+
+  .heroBack{
+    background:  no-repeat right -200px center/700px  url('../public/images/bg-intro-desktop.svg');
+  }
+
+  .heroImg-mobile{
+    background: no-repeat top -150px center/400px  url('../public/images/image-mockups.png');
+    width: 100%;
+    height: 350px;
+    position: static;
+    right: 0px;
+    top:0px;
+  
+  }
+
+  .heroBack-mobile{
+    background:  no-repeat top -240px  center/600px  url('../public/images/bg-intro-mobile.svg');
+    
+    
+  }
+}
+
+@media (max-width:800px){
+  .heroImg{
+    background: no-repeat top 50px right/40%  url('../public/images/image-mockups.png');
+  }
+
+  .heroBack{
+    background:  no-repeat right -200px center/700px  url('../public/images/bg-intro-desktop.svg');
+  }
+
+  .heroImg-mobile{
+    background: no-repeat top -150px center/400px  url('../public/images/image-mockups.png');
+    width: 100%;
+    height: 350px;
+    position: static;
+    right: 0px;
+    top:0px;
+    
+  }
+
+  .heroBack-mobile{
+    background:  no-repeat top -240px  center/600px  url('../public/images/bg-intro-mobile.svg');
+    
   }
 }
