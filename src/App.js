@@ -92,7 +92,7 @@ function App(props) {
            p2={ isMobile? 'py30 fb1 fc sb tc' : 'py50 fb1 fr sb'}
            color="lightgray">
         <TextBox 
-                   url="/images/icon-online.svg"
+                   url="images/icon-online.svg"
                    titleText="Online Banking" 
                     contentText="Our modern web and mobile applications allow you to keep track of your finances 
                     wherever you are in the world."
